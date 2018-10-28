@@ -1,2 +1,8 @@
 # timber-tailwind-boilerplate
-Timber wordpress theme using tailwind.css
+A Timber wordpress theme boilerplate using tailwindcss.
+
+### Setup
+Install PHP and JS dependencies:
+
+    npm run setup
+
