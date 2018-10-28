@@ -1,8 +1,9 @@
-module.exports = {
+module.exports = ({ options }) => ({
   plugins: {
     'postcss-import': {},
     'tailwindcss': 'tailwind.js',
     'autoprefixer': {},
-    'cssnano': {}
+    '@fullhuman/postcss-purgecss': options.purgecss,
+    'cssnano': options.cssnano
   }
-}
+})

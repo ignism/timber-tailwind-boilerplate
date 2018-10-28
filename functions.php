@@ -25,7 +25,7 @@ Timber::$autoescape = false;
  * We're going to configure our theme inside of a subclass of Timber\Site
  * You can move this to its own file and include here via php's include("MySite.php")
  */
-class StarterSite extends Timber\Site {
+class Boilerplate extends Timber\Site {
 	/** Add timber support. */
 	public function __construct() {
 		add_action( 'after_setup_theme', array( $this, 'theme_supports' ) );
@@ -117,4 +117,4 @@ class StarterSite extends Timber\Site {
 		return $twig;
 	}
 }
-new StarterSite();
+new Boilerplate();
