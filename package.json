@@ -21,7 +21,6 @@
   "homepage": "https://github.com/ignism/timber-tailwind-boilerplate#readme",
   "devDependencies": {
     "@babel/core": "^7.1.2",
-    "@fullhuman/postcss-purgecss": "^1.1.0",
     "autoprefixer": "^9.3.1",
     "babel-loader": "^8.0.4",
     "babel-preset-env": "^1.7.0",
